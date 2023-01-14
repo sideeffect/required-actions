@@ -1,0 +1,7 @@
+name: Check Org Compliance
+
+jobs:
+  required_workflow_job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Check Compilance"
