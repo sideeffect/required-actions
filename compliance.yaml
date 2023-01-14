@@ -1,5 +1,7 @@
 name: Check Org Compliance
 
+on: [push, pull_request]
+
 jobs:
   required_workflow_job1:
     runs-on: ubuntu-latest
