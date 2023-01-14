@@ -1,6 +1,6 @@
 name: Check Org Compliance
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   required_workflow_job1:
