@@ -1,0 +1,10 @@
+name: Check Org Security
+
+on: 
+
+jobs:
+  required_workflow_job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Check Security"
+      - run: exit 1
